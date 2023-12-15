@@ -34,8 +34,10 @@ public class Spark {
 			      .appName("Data Counting")
 			      .getOrCreate();
 		
+		//This takes in the input file
 		JavaRDD<String> lines = spark.read().textFile(args[0]).javaRDD();
-				
+		
+		//This calls the InteractionsMap class and reads each line from the input file
 		JavaPairRDD<String, Integer> interactions = lines.flatMapToPair(new InteractionsMap());
 		
 		//This combines all the pairs that are the same
