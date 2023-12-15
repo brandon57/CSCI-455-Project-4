@@ -47,7 +47,7 @@ public class Spark {
 			}
 		});
 		
-		//This makes the ouput look better
+		//This makes the output look better
 		JavaRDD<String> output = counts.map(tuple -> tuple._1() + " " + tuple._2());
 		
 		output.saveAsTextFile("./output");
