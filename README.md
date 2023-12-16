@@ -1,7 +1,7 @@
 # CSCI-455-Project-4
 This project is about programming for Spark and running it on a Spark server.
 
-If you want to what I had to code for this project you can check out my [project 3](https://github.com/brandon57/CSCI-455-Project-3)
+If you want to know what I had to code for this project you can check out my [project 3](https://github.com/brandon57/CSCI-455-Project-3)
 
 # These are the requirements for the project
 <p align="center">
