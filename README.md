@@ -36,7 +36,7 @@ cd main/
 javac -classpath /usr/lib/spark-3.1.1-bin-hadoop3.2/jars/spark-core_2.12-3.1.1.jar:/usr/lib/spark-3.1.1-bin-hadoop3.2/jars/spark-sql_2.12-3.1.1.jar:/usr/lib/spark-3.1.1-bin-hadoop3.2/jars/scala-library-2.12.10.jar Spark.java Table.java InteractionsMap.java
 ```
 
-* Then we'll go to the main directory:
+* Then we'll go back to the main directory:
 ```
 cd
 ```
